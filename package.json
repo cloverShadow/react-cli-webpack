@@ -1,0 +1,34 @@
+{
+  "name": "react-cli-webpack",
+  "version": "1.0.1",
+  "description": "a generator for react",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "react-create": "bin/scion"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cloverShadow/react-generator.git"
+  },
+  "keywords": [
+    "react",
+    "webpack",
+    "cli",
+    "generator"
+  ],
+  "author": "kaishen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cloverShadow/react-generator/issues"
+  },
+  "homepage": "https://github.com/cloverShadow/react-generator#readme",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "co": "^4.6.0",
+    "co-prompt": "^1.0.0",
+    "commander": "^2.9.0"
+  }
+}
